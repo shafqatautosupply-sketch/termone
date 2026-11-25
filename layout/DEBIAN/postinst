@@ -1,0 +1,6 @@
+#!/bin/sh
+chown root:wheel /usr/libexec/term6root 2>/dev/null
+chmod 4755 /usr/libexec/term6root
+launchctl unload /Library/LaunchDaemons/com.term6.daemon.plist 2>/dev/null
+launchctl load /Library/LaunchDaemons/com.term6.daemon.plist
+exit 0

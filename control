@@ -1,0 +1,9 @@
+Package: com.term6.app
+Name: Term6
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: A proper terminal for iOS 6: libvterm emulation, key bar, background sessions
+Maintainer: you <you@example.com>
+Author: you <you@example.com>
+Section: Terminal_Support
+Depends: bash, firmware (>= 5.0)
